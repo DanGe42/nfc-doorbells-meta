@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddDeviseToUsers	db/migrate/20130101022914_add_devise_to_users.rb	/^class AddDeviseToUsers < ActiveRecord::Migration$/;"	c
+Api	app/controllers/api/auth_controller.rb	/^class Api::AuthController < ApplicationController$/;"	c
+Api	app/controllers/api/base_controller.rb	/^class Api::BaseController < ApplicationController$/;"	c
+Api	app/controllers/api/devices_controller.rb	/^class Api::DevicesController < Api::BaseController$/;"	c
+Api	app/controllers/api/ring_controller.rb	/^class Api::RingController < ApplicationController$/;"	c
+Api	app/controllers/api/tags_controller.rb	/^class Api::TagsController < Api::BaseController$/;"	c
+Api	app/controllers/api/users_controller.rb	/^class Api::UsersController < ApplicationController$/;"	c
+Api	app/helpers/api/auth_helper.rb	/^module Api::AuthHelper$/;"	m
+Api	app/helpers/api/devices_helper.rb	/^module Api::DevicesHelper$/;"	m
+Api	app/helpers/api/ring_helper.rb	/^module Api::RingHelper$/;"	m
+Api	app/helpers/api/tags_helper.rb	/^module Api::TagsHelper$/;"	m
+Api	app/helpers/api/users_helper.rb	/^module Api::UsersHelper$/;"	m
+Api	test/functional/api/auth_controller_test.rb	/^class Api::AuthControllerTest < ActionController::TestCase$/;"	c
+Api	test/functional/api/devices_controller_test.rb	/^class Api::DevicesControllerTest < ActionController::TestCase$/;"	c
+Api	test/functional/api/ring_controller_test.rb	/^class Api::RingControllerTest < ActionController::TestCase$/;"	c
+Api	test/functional/api/tags_controller_test.rb	/^class Api::TagsControllerTest < ActionController::TestCase$/;"	c
+Api	test/functional/api/users_controller_test.rb	/^class Api::UsersControllerTest < ActionController::TestCase$/;"	c
+Api	test/unit/helpers/api/auth_helper_test.rb	/^class Api::AuthHelperTest < ActionView::TestCase$/;"	c
+Api	test/unit/helpers/api/devices_helper_test.rb	/^class Api::DevicesHelperTest < ActionView::TestCase$/;"	c
+Api	test/unit/helpers/api/ring_helper_test.rb	/^class Api::RingHelperTest < ActionView::TestCase$/;"	c
+Api	test/unit/helpers/api/tags_helper_test.rb	/^class Api::TagsHelperTest < ActionView::TestCase$/;"	c
+Api	test/unit/helpers/api/users_helper_test.rb	/^class Api::UsersHelperTest < ActionView::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Server
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+CreateMessages	db/migrate/20130102072027_create_messages.rb	/^class CreateMessages < ActiveRecord::Migration$/;"	c
+CreateTags	db/migrate/20130101022228_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20130101022145_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Device	app/models/device.rb	/^module Device$/;"	m
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+HomeControllerTest	test/functional/home_controller_test.rb	/^class HomeControllerTest < ActionController::TestCase$/;"	c
+HomeHelper	app/helpers/home_helper.rb	/^module HomeHelper$/;"	m
+HomeHelperTest	test/unit/helpers/home_helper_test.rb	/^class HomeHelperTest < ActionView::TestCase$/;"	c
+Message	app/models/message.rb	/^class Message < ActiveRecord::Base$/;"	c
+MessageTest	test/unit/message_test.rb	/^class MessageTest < ActiveSupport::TestCase$/;"	c
+Server	config/application.rb	/^module Server$/;"	m
+Tag	app/models/tag.rb	/^class Tag < ActiveRecord::Base$/;"	c
+TagTest	test/unit/tag_test.rb	/^class TagTest < ActiveSupport::TestCase$/;"	c
+TagsController	app/controllers/tags_controller.rb	/^class TagsController < ApplicationController$/;"	c
+TagsControllerTest	test/functional/tags_controller_test.rb	/^class TagsControllerTest < ActionController::TestCase$/;"	c
+TagsHelper	app/helpers/tags_helper.rb	/^module TagsHelper$/;"	m
+TagsHelperTest	test/unit/helpers/tags_helper_test.rb	/^class TagsHelperTest < ActionView::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+change	db/migrate/20130101022145_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20130101022228_create_tags.rb	/^  def change$/;"	f	class:CreateTags
+change	db/migrate/20130102072027_create_messages.rb	/^  def change$/;"	f	class:CreateMessages
+create	app/controllers/api/auth_controller.rb	/^  def create$/;"	f	class:Api
+create	app/controllers/api/tags_controller.rb	/^  def create$/;"	f	class:Api
+create	app/controllers/tags_controller.rb	/^  def create$/;"	f	class:TagsController
+destroy	app/controllers/api/auth_controller.rb	/^  def destroy$/;"	f	class:Api
+destroy	app/controllers/api/tags_controller.rb	/^  def destroy$/;"	f	class:Api
+destroy	app/controllers/tags_controller.rb	/^  def destroy$/;"	f	class:TagsController
+down	db/migrate/20130101022914_add_devise_to_users.rb	/^  def self.down$/;"	F	class:AddDeviseToUsers
+edit	app/controllers/tags_controller.rb	/^  def edit$/;"	f	class:TagsController
+find	app/models/device.rb	/^  def self.find(user_id)$/;"	F	class:Device
+generate_tid	app/models/tag.rb	/^  def generate_tid$/;"	f	class:Tag
+get_devices	app/models/user.rb	/^  def get_devices$/;"	f	class:User
+index	app/controllers/api/tags_controller.rb	/^  def index$/;"	f	class:Api
+index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+index	app/controllers/tags_controller.rb	/^  def index$/;"	f	class:TagsController
+json_status_response	app/controllers/application_controller.rb	/^  def json_status_response(status, message, timestamp=Time.now)$/;"	f	class:ApplicationController
+key	app/models/device.rb	/^  def self.key(user_id)$/;"	F	class:Device
+new	app/controllers/tags_controller.rb	/^  def new$/;"	f	class:TagsController
+register	app/controllers/api/devices_controller.rb	/^  def register$/;"	f	class:Api
+register	app/models/device.rb	/^  def self.register(user_id, reg_id)$/;"	F	class:Device
+register_device	app/models/user.rb	/^  def register_device(reg_id)$/;"	f	class:User
+show	app/controllers/api/tags_controller.rb	/^  def show$/;"	f	class:Api
+show	app/controllers/tags_controller.rb	/^  def show$/;"	f	class:TagsController
+tag_as_hash	app/controllers/api/tags_controller.rb	/^  def tag_as_hash(tag, include_user=true)$/;"	f	class:Api
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+unregister	app/controllers/api/devices_controller.rb	/^  def unregister$/;"	f	class:Api
+unregister	app/models/device.rb	/^  def self.unregister(user_id, reg_id)$/;"	F	class:Device
+unregister_device	app/models/user.rb	/^  def unregister_device(reg_id)$/;"	f	class:User
+up	db/migrate/20130101022914_add_devise_to_users.rb	/^  def self.up$/;"	F	class:AddDeviseToUsers
+update	app/controllers/api/tags_controller.rb	/^  def update$/;"	f	class:Api
+update	app/controllers/tags_controller.rb	/^  def update$/;"	f	class:TagsController
+verify_auth_token	app/controllers/api/base_controller.rb	/^  def verify_auth_token$/;"	f	class:Api
